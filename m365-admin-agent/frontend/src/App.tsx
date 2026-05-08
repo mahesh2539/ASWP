@@ -1,4 +1,4 @@
-```tsx
+
 import {
   Shield,
   Mail,
@@ -188,4 +188,4 @@ function App() {
 }
 
 export default App;
-```
+
