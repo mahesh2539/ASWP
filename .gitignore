@@ -1,25 +1,27 @@
 # Node
 node_modules/
 dist/
-npm-debug.log*
+build/
+.next/
 
 # Python
 .venv/
+venv/
 __pycache__/
 *.pyc
 
-# VSCode
+# VS Code
 .vscode/
 
 # Mac
 .DS_Store
 
-# Build
-build/
-
-# Azure
-.azure/
-
 # Terraform
 .terraform/
 *.tfstate
+
+# Logs
+*.log
+
+# Azure
+.azure/
