@@ -9,7 +9,7 @@ import {
   Settings,
   Bell,
   Moon,
-  Search,
+  Search
 } from "lucide-react";
 
 import "./index.css";
@@ -18,33 +18,33 @@ const services = [
   {
     title: "Exchange",
     description: "Manage mailboxes and transport rules",
-    icon: <Mail size={28} />,
+    icon: <Mail size={28} />
   },
   {
     title: "SharePoint",
     description: "Manage sites and sharing",
-    icon: <Share2 size={28} />,
+    icon: <Share2 size={28} />
   },
   {
     title: "Teams",
     description: "Manage meetings and policies",
-    icon: <MessageSquare size={28} />,
+    icon: <MessageSquare size={28} />
   },
   {
     title: "OneDrive",
     description: "Manage storage and sharing",
-    icon: <HardDrive size={28} />,
+    icon: <HardDrive size={28} />
   },
   {
     title: "Entra ID",
     description: "Manage identities and groups",
-    icon: <Users size={28} />,
+    icon: <Users size={28} />
   },
   {
     title: "Security",
     description: "Security and compliance",
-    icon: <Shield size={28} />,
-  },
+    icon: <Shield size={28} />
+  }
 ];
 
 function App() {
@@ -89,7 +89,9 @@ function App() {
           <div>
             <h1>Welcome to M365 Admin Agent 👋</h1>
 
-            <p>AI-powered Microsoft 365 administration</p>
+            <p>
+              AI-powered Microsoft 365 administration
+            </p>
           </div>
 
           <div className="hero-icon">
@@ -97,12 +99,16 @@ function App() {
           </div>
         </section>
 
-        <h2 className="section-title">Microsoft 365 Services</h2>
+        <h2 className="section-title">
+          Microsoft 365 Services
+        </h2>
 
         <div className="services-grid">
           {services.map((service) => (
             <div className="card" key={service.title}>
-              <div className="card-icon">{service.icon}</div>
+              <div className="card-icon">
+                {service.icon}
+              </div>
 
               <h3>{service.title}</h3>
 
@@ -116,7 +122,10 @@ function App() {
         <h2>M365 Assistant</h2>
 
         <div className="assistant-box">
-          <p>Ask questions about your Microsoft 365 environment.</p>
+          <p>
+            Ask questions about your Microsoft 365
+            environment.
+          </p>
         </div>
 
         <div className="chat-box">

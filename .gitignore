@@ -1,0 +1,27 @@
+# Node
+node_modules/
+dist/
+build/
+.next/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+
+# Logs
+*.log
+
+# Azure
+.azure/
