@@ -1,5 +1,25 @@
+# Node
 node_modules/
 dist/
-.env
+npm-debug.log*
+
+# Python
+.venv/
 __pycache__/
+*.pyc
+
+# VSCode
 .vscode/
+
+# Mac
+.DS_Store
+
+# Build
+build/
+
+# Azure
+.azure/
+
+# Terraform
+.terraform/
+*.tfstate
