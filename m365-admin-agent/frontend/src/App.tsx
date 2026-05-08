@@ -1,4 +1,3 @@
-
 import {
   Shield,
   Mail,
@@ -10,7 +9,7 @@ import {
   Settings,
   Bell,
   Moon,
-  Search,
+  Search
 } from "lucide-react";
 
 import "./index.css";
@@ -19,40 +18,38 @@ const services = [
   {
     title: "Exchange",
     description: "Manage mailboxes and transport rules",
-    icon: <Mail size={28} />,
+    icon: <Mail size={28} />
   },
   {
     title: "SharePoint",
-    description: "Manage sites, permissions and sharing",
-    icon: <Share2 size={28} />,
+    description: "Manage sites and sharing",
+    icon: <Share2 size={28} />
   },
   {
     title: "Teams",
-    description: "Manage teams, meetings and policies",
-    icon: <MessageSquare size={28} />,
+    description: "Manage meetings and policies",
+    icon: <MessageSquare size={28} />
   },
   {
     title: "OneDrive",
-    description: "Manage OneDrive storage and sharing",
-    icon: <HardDrive size={28} />,
+    description: "Manage storage and sharing",
+    icon: <HardDrive size={28} />
   },
   {
     title: "Entra ID",
-    description: "Manage identities, groups and roles",
-    icon: <Users size={28} />,
+    description: "Manage identities and groups",
+    icon: <Users size={28} />
   },
   {
     title: "Security",
-    description: "Security and compliance management",
-    icon: <Shield size={28} />,
-  },
+    description: "Security and compliance",
+    icon: <Shield size={28} />
+  }
 ];
 
 function App() {
   return (
     <div className="app">
-      {/* Sidebar */}
-
       <aside className="sidebar">
         <div className="logo">
           <span className="purple">M365</span> Admin Agent
@@ -65,7 +62,6 @@ function App() {
           <div className="nav-item">Groups</div>
           <div className="nav-item">Devices</div>
           <div className="nav-item">Security</div>
-          <div className="nav-item">Compliance</div>
         </nav>
 
         <div className="sidebar-footer">
@@ -76,11 +72,7 @@ function App() {
         </div>
       </aside>
 
-      {/* Main */}
-
       <main className="main-content">
-        {/* Top Bar */}
-
         <header className="topbar">
           <div className="search-box">
             <Search size={18} />
@@ -93,14 +85,12 @@ function App() {
           </div>
         </header>
 
-        {/* Hero */}
-
         <section className="hero">
           <div>
             <h1>Welcome to M365 Admin Agent 👋</h1>
 
             <p>
-              AI-powered Microsoft 365 administration platform
+              AI-powered Microsoft 365 administration
             </p>
           </div>
 
@@ -108,8 +98,6 @@ function App() {
             <Sparkles size={80} />
           </div>
         </section>
-
-        {/* Services */}
 
         <h2 className="section-title">
           Microsoft 365 Services
@@ -128,53 +116,16 @@ function App() {
             </div>
           ))}
         </div>
-
-        {/* Stats */}
-
-        <h2 className="section-title">
-          Tenant Overview
-        </h2>
-
-        <div className="stats-grid">
-          <div className="stat-card">
-            <span>Users</span>
-            <h3>12,842</h3>
-          </div>
-
-          <div className="stat-card">
-            <span>Groups</span>
-            <h3>1,256</h3>
-          </div>
-
-          <div className="stat-card">
-            <span>Teams</span>
-            <h3>982</h3>
-          </div>
-
-          <div className="stat-card">
-            <span>SharePoint Sites</span>
-            <h3>1,432</h3>
-          </div>
-        </div>
       </main>
 
-      {/* Assistant Panel */}
-
       <aside className="assistant-panel">
-        <h2>M365 Admin Assistant</h2>
+        <h2>M365 Assistant</h2>
 
         <div className="assistant-box">
           <p>
-            Ask me anything about your Microsoft 365
+            Ask questions about your Microsoft 365
             environment.
           </p>
-
-          <ul>
-            <li>Show disabled users</li>
-            <li>Mailbox forwarding rules</li>
-            <li>Teams policy review</li>
-            <li>External sharing review</li>
-          </ul>
         </div>
 
         <div className="chat-box">
@@ -188,4 +139,3 @@ function App() {
 }
 
 export default App;
-
